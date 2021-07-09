@@ -19,13 +19,45 @@ body {
 a {
     color: white;
 }
+.welcome {
+    position: relative;
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    animation-name: welcome;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes welcome { 
+    0% {
+        top: 10rem;
+        left: 5rem;
+    }
+    25% {
+        top: 15rem;
+        left: 10rem;
+    }
+    50% {
+        top: 20rem;
+        left: 15rem;
+    }
+    75% {
+        top: 15rem;
+        left: 10rem;
+    }
+    100% {
+        top: 10rem;
+        left: 5rem;
+    }
+}
 
 .fondo {
     width: 100%;
     height: 100%;
     position: absolute;
     z-index: -100;
-    background-image: url("../images/inicio.jpg");
 }
 .formulario {
     margin-top: 2rem;
@@ -62,7 +94,6 @@ h3.titulo {
     width: 55%;
 }
 
-
 span {
     font-weight: bold;
     text-decoration: underline;
@@ -84,3 +115,7 @@ h5 {
     text-align: center;
 }
 
+.btn:hover {
+    transform: scale(1.5);
+    transition: all .5s;
+}
