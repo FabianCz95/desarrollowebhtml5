@@ -1,0 +1,14 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "Proyecto final para desarrollo web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FabianCruz",
+  "license": "MIT",
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
+}
